@@ -13,7 +13,8 @@
   /* sizing */
   --border: 2px solid #253c6d;
   --border-radius: 5px;
-  --padding: 1rem 1rem;
+  --padding-bg: 1rem 1rem;
+  --padding-s: .7rem .7rem
 }
 
 body {
@@ -31,7 +32,7 @@ body {
   align-items: center;
   /* border: var(--border); */
   border: 2px solid #253c6d;
-  padding: var(--padding);
+  padding: var(--padding-bg);
   border-radius: var(--border-radius);
   max-width: 40%;
   gap: 10px;
@@ -40,7 +41,7 @@ body {
 button {
   background-color: var(--secondary-color);
   color: var(--ascent);
-  padding: var(--padding);
+  padding: var(--padding-bg);
   font-size: 1.3rem;
   border: none;
   outline: none;
@@ -49,7 +50,7 @@ button {
 
 p {
   font-size: 1.3rem;
-  padding: var(--padding);
+  padding: var(--padding-bg);
   border: var(--border);
   border-radius: var(--border-radius);
   /* color: var(--ascent); */
@@ -66,14 +67,17 @@ p {
 @media screen and (min-width: 375px) and (max-width: 620px){
   p {
     font-size:  .8rem;
+    padding: var(--padding-s)
   }
 
   button {
     font-size: .8rem;
+    padding: var(--padding-s)
   }
 
   .container {
     max-width: 15%
+    padding: var(--padding-s)
   }
 }
 
