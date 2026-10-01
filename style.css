@@ -76,7 +76,6 @@ p {
   }
 
   .container {
-    max-width: 15%;
     padding: var(--padding-s);
   }
 }
