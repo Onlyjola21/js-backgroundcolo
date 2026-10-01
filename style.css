@@ -67,16 +67,16 @@ p {
 @media screen and (min-width: 375px) and (max-width: 620px){
   p {
     font-size:  .8rem;
-    padding: var(--padding-s);
+    
   }
 
   button {
     font-size: .8rem;
-    padding: var(--padding-s);
+    
   }
 
   .container {
-    padding: var(--padding-s);
+  
   }
 }
 
