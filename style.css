@@ -71,6 +71,10 @@ p {
   button {
     font-size: .8rem;
   }
+
+  .container {
+    max-width: 15%
+  }
 }
 
 
